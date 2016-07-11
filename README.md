@@ -12,6 +12,7 @@ The package strucutre explained:
 
 - adapters - adapter classes
 - internals - dagger and mvp stuff
+- networking - retrofit apis
 - realm - all the realm object classes
 - support - all the utils, helpers, managers and everything else that I think is a support class. You can also divide it into several package names.
 - ui - I normally use the ui package for dialogs, activities, fragmetns. Inside the package I usually create an additional package name for every major feature of the app. 
