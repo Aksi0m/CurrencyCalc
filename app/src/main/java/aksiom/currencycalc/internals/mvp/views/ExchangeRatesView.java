@@ -10,10 +10,5 @@ import aksiom.currencycalc.realm.Currency;
  */
 public interface ExchangeRatesView extends MVP.View {
 
-    interface ErrorCode{
-        int NO_INTERNET = 0;
-        int NO_DATA = 1;
-    }
-
     void populateList(List<Currency> data);
 }
