@@ -29,4 +29,4 @@ The package strucutre explained:
 - [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart)
 - [JodaTimeAndroid](https://github.com/dlew/joda-time-android)
 
-Join the discussion on [reddit](https://www.reddit.com/r/androiddev/comments/4s9x1c/another_mvp_dagger_2_example/)
+#Join the discussion on [reddit](https://www.reddit.com/r/androiddev/comments/4s9x1c/another_mvp_dagger_2_example/)
