@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.currency.CurrencyStatsActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_currency"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_no_data"
+        android:layout_marginTop="35dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:text="@string/no_data_available"
+        android:layout_height="match_parent" />
+
+    <ProgressBar
+        android:id="@+id/pb"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerInParent="true"
+        android:indeterminate="true"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv_chart"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/rv_currency"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        card_view:cardCornerRadius="4dp"
+        card_view:cardElevation="4dp">
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/lc_currency"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

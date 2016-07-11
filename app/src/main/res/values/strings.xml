@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Currency Calc</string>
+    <string name="currency_calculator">Currency Calculator</string>
+    <string name="exchange_rates">Exchange rates</string>
+    <string name="currency_stats">Currency Stats</string>
+    <string name="selling_rate">Selling rate</string>
+    <string name="median_rate">Median rate</string>
+    <string name="buying_rate">Buying rate</string>
+    <string name="exchange_rate_title">"Exchange rates for "</string>
+    <string name="hrk">HRK</string>
+    <string name="kuna_converter">Kuna Converter</string>
+    <string name="kuna_compare">HRK statistics</string>
+    <string name="no_data_available">No data available</string>
+</resources>

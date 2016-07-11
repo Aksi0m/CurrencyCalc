@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/currency_calc"
+        android:icon="@mipmap/currency_calc"
+        android:title="@string/currency_calculator" />
+
+    <item
+        android:id="@+id/exchange_rate"
+        android:icon="@mipmap/exchange_rate"
+        android:title="@string/exchange_rates" />
+
+    <item
+        android:id="@+id/currency_compare"
+        android:icon="@mipmap/currency_compare"
+        android:title="@string/currency_stats" />
+
+</menu>
