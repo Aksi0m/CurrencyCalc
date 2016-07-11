@@ -21,7 +21,7 @@ The package strucutre explained:
 - Write tests
 - Fix slow initial start time of the app
 
-#Additional libs
+#Additional libs used
 
 - [Butterknife](http://jakewharton.github.io/butterknife/)
 - [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart)
