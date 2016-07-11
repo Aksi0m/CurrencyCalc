@@ -20,6 +20,7 @@ The package strucutre explained:
 #TODO
 
 - Write tests
+- Write documentation
 - Fix slow initial start time of the app
 
 #Additional libs used
