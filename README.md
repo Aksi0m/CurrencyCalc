@@ -20,3 +20,9 @@ The package strucutre explained:
 
 - Write tests
 - Fix slow initial start time of the app
+
+#Additional libs
+
+- [Butterknife](http://jakewharton.github.io/butterknife/)
+- [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart)
+- [JodaTimeAndroid](https://github.com/dlew/joda-time-android)
